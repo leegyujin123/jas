@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인문학의 숲 - 깊이 있는 지식의 세계</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h1><i class="fas fa-tree"></i> 인문학의 숲</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">홈</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">강의</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#categories" class="nav-link">카테고리</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">문의</a>
+                    </li>
+                </ul>
+                <div class="nav-buttons">
+                    <button class="btn btn-outline">로그인</button>
+                    <button class="btn btn-primary" data-signup-open>회원가입</button>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    깊이 있는 <span class="highlight">인문학</span>의 세계로<br>
+                    여러분을 초대합니다
+                </h1>
+                <p class="hero-description">
+                    철학, 문학, 역사, 예술의 정수를 담은 프리미엄 강의로<br>
+                    지혜의 나무를 심어보세요
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-large">
+                        <i class="fas fa-play"></i> 강의 둘러보기
+                    </button>
+                    <button class="btn btn-outline btn-large">
+                        <i class="fas fa-info-circle"></i> 자세히 알아보기
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-visual">
+                    <i class="fas fa-book-open"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 통계 섹션 -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">프리미엄 강의</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">전문 강사진</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">수강생</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">만족도</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 카테고리 섹션 -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>인문학 카테고리</h2>
+                <p>다양한 분야의 인문학 강의를 만나보세요</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>철학</h3>
+                    <p>고대부터 현대까지의 철학 사상과 이론을 탐구합니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-feather-alt"></i>
+                    </div>
+                    <h3>문학</h3>
+                    <p>세계 문학의 걸작들과 작가들의 세계관을 살펴봅니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>역사</h3>
+                    <p>인류의 역사를 통해 현재를 이해하고 미래를 예측합니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>예술</h3>
+                    <p>회화, 음악, 건축 등 다양한 예술의 아름다움을 감상합니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>문화</h3>
+                    <p>세계 각국의 문화와 전통을 이해하고 존중합니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>사상</h3>
+                    <p>인간과 사회에 대한 깊이 있는 사고와 통찰을 얻습니다</p>
+                    <a href="#" class="category-link">강의 보기 <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 인기 강의 섹션 -->
+    <section id="courses" class="featured-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>인기 강의</h2>
+                <p>수강생들이 가장 많이 선택한 프리미엄 강의들</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/300x200/4A5568/FFFFFF?text=플라톤의+이상국" alt="플라톤의 이상국">
+                        <div class="course-overlay">
+                            <button class="btn btn-primary btn-small">미리보기</button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">철학</div>
+                        <h3>플라톤의 이상국</h3>
+                        <p>고대 그리스 철학의 정수를 담은 플라톤의 정치철학 강의</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 12강</span>
+                            <span><i class="fas fa-user"></i> 김철학 교수</span>
+                        </div>
+                        <div class="course-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(4.9)</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">₩89,000</span>
+                            <button class="btn btn-primary">수강하기</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/300x200/2D3748/FFFFFF?text=셰익스피어+희곡의+세계" alt="셰익스피어 희곡의 세계">
+                        <div class="course-overlay">
+                            <button class="btn btn-primary btn-small">미리보기</button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">문학</div>
+                        <h3>셰익스피어 희곡의 세계</h3>
+                        <p>인간의 본질을 다룬 셰익스피어의 걸작들을 깊이 있게 분석</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 15강</span>
+                            <span><i class="fas fa-user"></i> 이문학 교수</span>
+                        </div>
+                        <div class="course-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span>(4.8)</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">₩95,000</span>
+                            <button class="btn btn-primary">수강하기</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://via.placeholder.com/300x200/1A202C/FFFFFF?text=르네상스+예술사" alt="르네상스 예술사">
+                        <div class="course-overlay">
+                            <button class="btn btn-primary btn-small">미리보기</button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">예술</div>
+                        <h3>르네상스 예술사</h3>
+                        <p>인문주의가 꽃피운 르네상스 시대의 예술과 문화를 탐구</p>
+                        <div class="course-meta">
+                            <span><i class="fas fa-clock"></i> 10강</span>
+                            <span><i class="fas fa-user"></i> 박예술 교수</span>
+                        </div>
+                        <div class="course-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <span>(4.7)</span>
+                        </div>
+                        <div class="course-price">
+                            <span class="price">₩78,000</span>
+                            <button class="btn btn-primary">수강하기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 강사 소개 섹션 -->
+    <section class="instructors">
+        <div class="container">
+            <div class="section-header">
+                <h2>전문 강사진</h2>
+                <p>각 분야의 최고 전문가들이 전하는 깊이 있는 지식</p>
+            </div>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/200x200/4A5568/FFFFFF?text=김철학" alt="김철학 교수">
+                    </div>
+                    <h3>김철학 교수</h3>
+                    <p class="instructor-title">서울대학교 철학과</p>
+                    <p class="instructor-bio">고대 그리스 철학과 현대 윤리학을 전공한 철학자로, 복잡한 철학적 개념을 쉽게 설명하는 것으로 유명합니다.</p>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/200x200/2D3748/FFFFFF?text=이문학" alt="이문학 교수">
+                    </div>
+                    <h3>이문학 교수</h3>
+                    <p class="instructor-title">연세대학교 영문학과</p>
+                    <p class="instructor-bio">영국 문학과 셰익스피어 연구의 권위자로, 문학 작품 속 인간의 본질을 탐구하는 강의를 진행합니다.</p>
+                </div>
+                <div class="instructor-card">
+                    <div class="instructor-image">
+                        <img src="https://via.placeholder.com/200x200/1A202C/FFFFFF?text=박예술" alt="박예술 교수">
+                    </div>
+                    <h3>박예술 교수</h3>
+                    <p class="instructor-title">홍익대학교 미술사학과</p>
+                    <p class="instructor-bio">서양 미술사와 르네상스 예술을 전공한 미술사학자로, 예술 작품을 통해 시대의 정신을 읽어냅니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA 섹션 -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>지금 시작하세요</h2>
+                <p>인문학의 깊이 있는 세계로 여러분을 초대합니다. 첫 강의를 무료로 체험해보세요.</p>
+                <button class="btn btn-primary btn-large">
+                    <i class="fas fa-gift"></i> 무료 체험 시작하기
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-tree"></i> 인문학의 숲</h3>
+                    <p>깊이 있는 지식과 지혜를 나누는 온라인 인문학 플랫폼입니다.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>강의</h4>
+                    <ul>
+                        <li><a href="#">철학</a></li>
+                        <li><a href="#">문학</a></li>
+                        <li><a href="#">역사</a></li>
+                        <li><a href="#">예술</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>고객지원</h4>
+                    <ul>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">수강신청 가이드</a></li>
+                        <li><a href="#">환불 정책</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>회사 정보</h4>
+                    <ul>
+                        <li><a href="#">회사 소개</a></li>
+                        <li><a href="#">채용 정보</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 인문학의 숲. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 회원가입 모달 -->
+    <div class="modal" id="signup-modal" aria-hidden="true" tabindex="-1">
+      <div class="modal-overlay" data-signup-close></div>
+      <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="signup-title">
+        <button class="modal-close" data-signup-close aria-label="닫기">&times;</button>
+        <h2 id="signup-title">회원가입</h2>
+        <form class="signup-form">
+          <label for="signup-name">이름</label>
+          <input type="text" id="signup-name" name="name" required autocomplete="name" placeholder="이름을 입력하세요">
+          <label for="signup-email">이메일</label>
+          <input type="email" id="signup-email" name="email" required autocomplete="email" placeholder="이메일을 입력하세요">
+          <label for="signup-password">비밀번호</label>
+          <input type="password" id="signup-password" name="password" required autocomplete="new-password" placeholder="비밀번호를 입력하세요">
+          <label for="signup-password2">비밀번호 확인</label>
+          <input type="password" id="signup-password2" name="password2" required autocomplete="new-password" placeholder="비밀번호를 다시 입력하세요">
+          <button type="submit" class="btn btn-primary btn-large" style="width:100%">회원가입</button>
+        </form>
+        <p class="modal-desc">이미 계정이 있으신가요? <a href="#" class="modal-login-link">로그인</a></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
